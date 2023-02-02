@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+html {
+  overflow-y: hidden;
+}
+
+.background {
+  background-color: hsl(185, 75%, 39%);
+  display: flex;
+}
+
+.background .bg-top {
+  position: relative;
+  width: 50%;
+  height: 1000px;
+  margin-top: -550px;
+}
+
+.background .bg-bottom {
+  position: relative;
+  width: 50%;
+  height: auto;
+  margin-top: 350px;
+}
+
+.container {
+  display: flex;
+  position: absolute;
+  width: 350px;
+  height: 380px;
+  border-radius: 20px;
+  background-color: white;
+  margin-left: 40%;
+  margin-top: 10%;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 18px;
+}
+
+.capa {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.pic {
+  display: flex;
+  position: relative;
+  margin-top: -16%;
+  left: 35%;
+  border-radius: 100px;
+  border: 6px solid white;
+}
+
+.infos {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  margin: 15px;
+}
+
+.name {
+  font-weight: 700;
+  color: hsl(229, 23%, 23%);
+}
+
+.age {
+  margin-left: 10px;
+  color: hsl(227, 10%, 46%);
+  font-weight: 400;
+}
+
+.country {
+  color: hsl(0, 0%, 59%);
+  font-size: 15px;
+}
+
+hr {
+  margin-top: 30px;
+}
+.metrics {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 25px;
+  font-weight: 700;
+  color: hsl(229, 23%, 23%);
+}
+
+.metrics-type {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5px;
+  color: hsl(0, 0%, 59%);
+  font-size: 10px;
+}
+
+.attribution {
+  display: flex;
+  position: absolute;
+  margin-left: 41.5%;
+  margin-top: 40%;
+  font-size: 11px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

@@ -1,0 +1,79 @@
+@media (max-width: 1200px) {
+
+.background .bg-top {
+  position: relative;
+  width: 50%;
+  height: 680px;
+}
+
+.background .bg-bottom {
+  position: relative;
+  width: 50%;
+  height: 681px;
+}
+
+.container {
+  display: flex;
+  position: absolute;
+  width: 350px;
+  height: 380px;
+  border-radius: 20px;
+  background-color: white;
+  margin-left: 32%;
+  margin-top: 30%;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 18px;
+}
+
+.attribution {
+  display: flex;
+  position: absolute;
+  margin-left: 34%;
+  margin-top: 80%;
+  font-size: 11px;
+}
+}
+
+@media (max-width: 768px){
+  .container {
+    margin-left: 25%;
+    margin-top: 35%;
+  }
+
+  .attribution {
+    margin-left: 28%;
+    margin-top: 110%;
+  }
+
+}
+
+@media (max-width:576px){
+  
+  html {
+   overflow-y: visible;
+  }
+
+  .container {
+    margin-left: 15%;
+    margin-top: 10%;
+    max-width: 70%;
+  }
+
+  .capa{
+    max-width: 100%;
+  }
+
+  .pic {
+    margin-top: -18%;
+    left: 31%;
+    border-radius: 100px;
+    border: 6px solid white;
+  }
+
+  .attribution {
+  
+    margin-left: 10%;
+    margin-top: 150%;
+  }
+
+}
